@@ -1,0 +1,65 @@
+div#total{
+    width: 980px;
+    height: auto;
+    margin: auto; /* centraliza a divisão na página*/
+}
+header#topo{
+    width: 100%; /* lembrando que ele está dentro do total*/
+    height: auto;
+    float: left;
+   /* background-color: yellow;*/
+
+}
+figure#logotipo{
+    width: 204px;
+    height: 84px;
+    margin: 20px auto; /* topo - direita - inferior - esquerda*/
+}
+nav#menu{
+    width: 100%;
+    height: 40px;
+    background-color:  #111;
+    float: left;
+    text-align: center;
+    border-radius:  5px;
+}
+nav#menu a{
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px; /* centraliza na vertical*/
+    text-decoration: none; /* para tirar o sublinhado embaixo do link do menu. 
+     Continua como link, só não tem mais o sublinhado*/
+    margin: 0 25px;
+    text-transform: uppercase;/* coloca tudo em maiúscula - podemos também diminuir lowercase*/
+    }
+nav#menu a:hover{
+    text-decoration: underline;/* coloca o sublinhado ao passar o mouse*/
+}
+figure#banner{
+    width: 100%;
+    height: auto;
+    float: left;
+    /*margin-left: 0px;
+    margin-top: 5px;*/
+    margin: 5px 0 0 0; /* ele entende que são todas as margens seguinte o sentido do relógio*/
+}
+figure#banner img{
+    width: 100%;
+}
+article#conteudo{
+    width: 60%;
+    float: left;
+}
+anside#coluna{
+    width: 35%;
+    float:right ;    
+}
+footer#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    background-color:black ;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
